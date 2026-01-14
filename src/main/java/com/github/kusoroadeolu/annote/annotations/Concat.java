@@ -10,5 +10,4 @@ import java.lang.annotation.*;
 public @interface Concat {
     String assignTo();
     String[] value();
-    int order();
 }

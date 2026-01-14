@@ -10,5 +10,4 @@ import java.lang.annotation.*;
 public @interface Return {
     String value();
     String type();
-    int order();
 }

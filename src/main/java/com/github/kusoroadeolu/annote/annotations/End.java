@@ -8,5 +8,4 @@ import java.lang.annotation.*;
 @Target(ElementType.METHOD)
 @Repeatable(Ends.class)
 public @interface End {
-    int order();
 }

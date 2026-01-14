@@ -9,5 +9,4 @@ import java.lang.annotation.*;
 @Repeatable(Loops.class)
 public @interface Loop {
     String condition() default "true";
-    int order();
 }

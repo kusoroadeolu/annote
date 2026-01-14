@@ -9,5 +9,4 @@ import java.lang.annotation.Target;
 @Target(ElementType.METHOD)
 public @interface Yeet {
     String value() default "";
-    int order();
 }

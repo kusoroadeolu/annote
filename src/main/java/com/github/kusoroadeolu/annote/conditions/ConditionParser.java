@@ -3,7 +3,6 @@ package com.github.kusoroadeolu.annote.conditions;
 
 import com.github.kusoroadeolu.annote.Expression;
 import com.github.kusoroadeolu.annote.Utils;
-import com.github.kusoroadeolu.annote.Value;
 import com.github.kusoroadeolu.annote.conditions.ConditionExpr.BoolValue;
 import com.github.kusoroadeolu.annote.math.ArithmeticExpr;
 import com.github.kusoroadeolu.annote.math.ArithmeticExpr.ArithmeticValue;
@@ -15,8 +14,6 @@ import com.github.kusoroadeolu.annote.tokenizer.Token;
 import java.util.ArrayDeque;
 import java.util.Deque;
 import java.util.List;
-
-import static com.github.kusoroadeolu.annote.Utils.asBoolean;
 
 public class ConditionParser {
 

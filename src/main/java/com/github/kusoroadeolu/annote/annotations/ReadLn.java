@@ -11,5 +11,4 @@ public @interface ReadLn {
     String prompt();
     String assignTo();
     String type();
-    int order();
 }

@@ -8,7 +8,6 @@ import com.github.kusoroadeolu.annote.tokenizer.Operator;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
 import java.util.regex.Pattern;
 
 import static java.lang.IO.println;

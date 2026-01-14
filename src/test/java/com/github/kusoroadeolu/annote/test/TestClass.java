@@ -1,7 +1,8 @@
-package com.github.kusoroadeolu.annote;
+package com.github.kusoroadeolu.annote.test;
 
 import com.github.kusoroadeolu.annote.annotations.*;
 
+@SuppressWarnings("DefaultAnnotationParam")
 @Field(name = "i", value = "1", type = "num")
 @Field(name = "j", value = "1", type = "num")
 public class TestClass {
@@ -41,6 +42,7 @@ public class TestClass {
     public void tryFields(){
 
     }
+
 
     // why is this one not formatted nicely???
     @Var(name = "result", value = "1", type = "num")

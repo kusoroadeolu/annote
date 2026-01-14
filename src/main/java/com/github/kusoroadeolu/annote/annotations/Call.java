@@ -12,5 +12,4 @@ public @interface Call {
     String returnType() default "void";
     String assignTo() default "";
     Class<?> clazz();
-    int order();
 }
